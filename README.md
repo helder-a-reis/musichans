@@ -7,16 +7,16 @@ Following instructions are to create a development environment for Musichans on 
 
 ## Configuration
 ### Conda
-A Conda environment file is includedfolder. Open "Anaconda command prompt", navigate to your project folder and run
-	conda env create -f musichans.yml 
+A Conda environment file is included. Open "Anaconda command prompt", navigate to your project folder and run
+- conda env create -f musichans.yml 
 Activate the environment
-	activate musichans
+- activate musichans
 
 see https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file for more info.
 
 ### Eclipse
 Open the project. Go to Properties->PyDev-Intepreter/Grammar, "Click here to configure an interpreter not listed", "New", navigate to the environment executable, example "D:\Anaconda3\envs\musichans\python.exe", set Interpreter to "musichans", OK, OK, select musichans as the Interpreter, "Apply and Close". This will find all the projects dependencies and run it under the musichans virtual environment.
-There's also a GitHub plugin for Eclipse.
+There's also a GitHub plugin for Eclipse, very useful.
 
 ### PyCharm
 Good luck. (it's supposed to work really nicely, although Django is only supported in the Pro version)
@@ -32,4 +32,4 @@ Django has already created the basic structure, it's all in the musichans folder
 
 ## Starting the website
 Open Anaconda prompt, navigate inside the musichans site (where manage.py is), run
-	python manage.py runserver
+- python manage.py runserver
