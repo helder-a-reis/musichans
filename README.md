@@ -18,7 +18,7 @@ see https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-
 ### Eclipse
 Open the project. Go to Properties->PyDev-Intepreter/Grammar, "Click here to configure an interpreter not listed", "New", navigate to the environment executable, example "D:\Anaconda3\envs\musichans\python.exe", set Interpreter to "musichans", OK, OK, select musichans as the Interpreter, "Apply and Close". This will find all the projects dependencies and run it under the musichans virtual environment.
 
-There's also a GitHub plugin for Eclipse, very useful.
+There's also a GitHub plugin for Eclipse, very useful. After installing it, right click on the project root, select, them "Commit" or "Pull", etc.
 
 ### PyCharm
 Good luck. (it's supposed to work really nicely, although Django is only supported in the Pro version)
