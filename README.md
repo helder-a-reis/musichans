@@ -6,3 +6,5 @@ Musichans is a project to create a social networks for amateur musicians. Featur
 - Messaging
 - Search for bands or musicians
 - Get recommended ads based on one's own music preferences
+
+Work in progress, to be built in Django
