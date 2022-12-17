@@ -1,3 +1,5 @@
+2022: project abandoned.
+
 Musichans is a project to create a social networks for amateur musicians. Features include:
 - Creating a profile for a musician
 - Creating a profile for a band
